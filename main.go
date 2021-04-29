@@ -32,7 +32,7 @@ type Pizza struct {
 var Pizzas []Pizza
 
 func homePage(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintf(w, "Welcome to Papa Milhouse's Pizza API! New Version!")
+	fmt.Fprintf(w, "Welcome to Papa Milhouse's Pizza API! Demo for VON!")
 	fmt.Println("Endpoint Hit: homePage")
 }
 
